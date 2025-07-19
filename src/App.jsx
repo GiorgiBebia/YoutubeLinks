@@ -46,7 +46,6 @@ const VideoPlayer = ({ videoId }) => {
     <div
       ref={ref}
       style={{
-        // Adjust width to accommodate 3 videos per row with some spacing
         marginBottom: "20px", // Reduced margin to fit grid better
         minHeight: "200px", // Adjusted min-height for smaller grid items
         borderRadius: "12px",
